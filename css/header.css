@@ -1,0 +1,9 @@
+.header {
+    color: white;
+    height: 822px;
+    top: -22px;
+    left: -116px;
+    background-image: url("../public/bgHero.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
