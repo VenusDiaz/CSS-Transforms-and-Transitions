@@ -1,0 +1,17 @@
+/* 
+body{
+    margin:0px;
+    padding: 0px;
+}
+
+.header{
+    color: white;
+    height: 100%;
+    background-image: url("public/bgHero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav li{
+    float: left;
+    list-style: none;
+} */
