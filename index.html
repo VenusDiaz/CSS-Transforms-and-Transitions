@@ -6,9 +6,12 @@
   <title>Homework</title>
   <link rel="stylesheet" href="/css/index.css">
   <link rel="stylesheet" href="/css/header.css">
-  <link rel="stylesheet" href="/css/footer.css">
-  <link rel="stylesheet" href="/css/learn-more.css">
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/learn-more.css">
+  <link rel="stylesheet" href="/css/footer.css">
+
+  -->
+
 </head>
 
 <body>
@@ -24,51 +27,75 @@
       </ul>
     </nav>
   </header> -->
+
+
+  <div class="header-img-bg"></div>
   <div class="header">
-    <div id="hero">
+    <div class="hero">
       <img src="public\Logo.svg" />
       <br />
-      <span>Your Headline<br />Here</span>
-      <br />
-      <span>
+      <div>Your Headline<br />Here</div>
+      <span class="slogan">
         Lorem ipsum dolor sit amet, consectetur<br />adispiscing elit sed do
         eiusmod.
       </span>
     </div>
   </div>
 
+
   <main>
-    <section>
-      <h2>This is the Section Headline,<br>Continues to Two Lines
-      </h2>
-      <h3>Lorem ipsum dolor sit amet, consectetur<br>adispiscing elit sed do eiusmod.</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-        id est laborum. Sed ut perspiciatis unde omnis.</p>
-      <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <button type="button">Read more</button>
-    </section>
+    <div class="main-info center">
+
+
+      <h2 class="title">This is the Section Headline,<br>Continues to Two Lines</h2>
+
+
+      <h3 class="subtitle">Lorem ipsum dolor sit amet, consectetur<br>adispiscing elit sed do eiusmod.</h3>
+
+      <div class="main-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+          id est laborum. Sed ut perspiciatis unde omnis.</p>
+        <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+
+
+      <button class="bottom" type="button">
+        <div class="bottom-text">Read more</div>
+      </button>
+    </div>
   </main>
-  <section id="learn-more">
-    <h2>Learn more<br>about our culture...</h2>
-    <button type="button">&#9654</button>
+
+
+  <section class="learn-more center">
+    <div class="bg-mask"></div>
+
+    <h2 class="learn-title">Learn more<br>about our culture...</h2>
+    <button class="learn-bottom" type="button"> <span>&#9654</span></button>
     <br>
-    <span>Duis aute irure dolor in reprehenderit<br>in voluptate velit esse cillum dolore eu<br>fugiat nulla pariatur.
+    <span class="learn-text">Duis aute irure dolor in reprehenderit<br>in voluptate velit esse cillum dolore
+      eu<br>fugiat nulla pariatur.
     </span>
   </section>
-  <footer>
-    <div>
-      <img src="public\SmallLogo.svg" /> Project
+
+  <footer class="footer">
+    <div class="footer-info">
+      <div class="footer-image-container">
+        <img class="footer-image" src="public\SmallLogo.svg" /> Project
+      </div>
+      <div class="footer-address">
+        123 Street,<br>Anytown, USA 12345
+      </div>
+      <div class="footer-mail">
+        <a href="mailto: hello@website.com">hello@website.com</a>
+      </div>
+      <div class="footer-rights">&copy; 2021 Project. All rights reserved </div>
     </div>
-    <div>
-      <i>123 Street,<br>Anytown, USA 12345</i>
-      <a href="mailto: hello@website.com">hello@website.com</a><br>
-    </div>
-    <p>&copy; 2021 Project. All rights reserved </p>
+
   </footer>
 
 </body>

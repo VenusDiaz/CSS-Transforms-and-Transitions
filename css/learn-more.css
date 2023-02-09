@@ -1,0 +1,58 @@
+.learn-more {
+    height: 666px;
+    color: white;
+
+    background-image: url("../public/learnMoreBg.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.learn-title {
+    z-index: 1000;
+    color: white;
+    text-align: center;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    margin: 0px;
+    text-align: center;
+}
+
+.learn-bottom {
+    z-index: 1000;
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(57, 194, 215, 1);
+    color: white;
+    font-size: 70px;
+    margin-top: 53px;
+    margin-bottom: 70px;
+}
+
+.learn-bottom>span {
+    position: relative;
+    left: 10px;
+
+}
+
+.learn-text {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin: 0px;
+}
+
+.bg-mask {
+    position: absolute;
+    background-color: rgba(140, 79, 42, 0.3);
+    width: 100%;
+    height: 666px;
+}

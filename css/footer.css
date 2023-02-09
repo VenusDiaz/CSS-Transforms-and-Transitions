@@ -1,0 +1,58 @@
+.footer {
+    text-align: left;
+    background-color: #464547;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.4);
+    height: 170px;
+}
+
+.footer-image-container {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    margin-bottom: 14px;
+    /* identical to box height, or 89% */
+
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.footer-info {
+    padding: 21px 0px 38px 0px;
+    margin-left: 140px;
+}
+
+.footer-image {
+    width: 20px;
+    height: 20px;
+    margin: 0px 16px 0 5px;
+    text-align: left;
+
+}
+
+.footer-address {
+    text-align: left;
+
+}
+
+.footer-mail a {
+    text-align: left;
+
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.footer-rights {
+    text-align: left;
+    margin: 0px;
+
+}

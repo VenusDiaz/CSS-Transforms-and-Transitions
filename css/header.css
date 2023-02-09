@@ -1,9 +1,50 @@
+.header-container {
+    position: absolute;
+    height: 800px;
+}
+
 .header {
-    color: white;
-    height: 822px;
-    top: -22px;
-    left: -116px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    min-height: 300px;
+    z-index: 1000;
+}
+
+.hero div:first-of-type {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 42px;
+}
+
+.header img {
+    height: 63px;
+    width: 63px;
+    margin-bottom: 13px;
+}
+
+
+.header-img-bg {
+    position: absolute;
     background-image: url("../public/bgHero.png");
     background-repeat: no-repeat;
     background-size: contain;
+    height: calc(822px + 22px);
+    width: calc(100% + 116px);
+    top: -22px;
+    left: -116px;
+}
+
+.slogan {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.7);
 }

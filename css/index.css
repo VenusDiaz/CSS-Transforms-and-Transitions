@@ -1,79 +1,23 @@
+/* Import fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro&display=swap');
+
 /* Remove default margin from body
 set background color to default */
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #EEEEEE;
-}
-
-/* PROJECT */
-#brand {
-    position: absolute;
-    left: 150px;
-    top: 45px;
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 16px;
-    /* identical to box height, or 80% */
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-
-}
-
-#hero {
-    text-align: center;
-    height: 822px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-
-
-
-#learn-more {
-    height: 666px;
+    background: rgba(238, 238, 238, 1);
     color: white;
-    background-image: url("../public/learnMoreBg.jfif");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#nav-bar {
-    position: absolute;
-    width: 595px;
-    height: 22px;
-    left: 408px;
-    top: 49px;
-}
-
-nav li {
-    float: left;
-    list-style: none;
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    /* identical to box height, or 114% */
-
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-
-    color: #FFFFFF;
-}
-
-ul a {
-    text-decoration: none;
-    color: #FFFFFF;
-    margin: 0 10px;
+    text-align: center;
 
 }
 
-li.active a {
-    border-bottom: 2px solid #FFFFFF;
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
