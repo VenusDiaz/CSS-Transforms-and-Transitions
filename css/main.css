@@ -39,13 +39,28 @@ main {
 }
 
 .main-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 83px;
     margin: 0 120px 0 97px;
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    color: black
+    color: #666
+}
+
+.main-text p {
+    text-align: left;
+}
+
+.main-text-left {
+    width: 408px;
+}
+
+.main-text-right {
+    width: 416px;
 }
 
 .bottom {

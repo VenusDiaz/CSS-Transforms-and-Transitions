@@ -27,6 +27,9 @@
 }
 
 .footer-info {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 50px);
     padding: 21px 0px 38px 0px;
     margin-left: 140px;
 }
@@ -54,5 +57,7 @@
 .footer-rights {
     text-align: left;
     margin: 0px;
-
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row: 2 / 3;
 }
