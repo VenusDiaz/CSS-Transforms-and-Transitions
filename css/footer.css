@@ -68,3 +68,66 @@
     grid-column-end: 8;
     grid-row: 2 / 3;
 }
+
+@media (max-width:768px) {
+    .footer {
+        text-align: center;
+        background-color: #464547;
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(255, 255, 255, 0.4);
+        height: 100%;
+    }
+
+    .footer-image-container {
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 16px;
+        margin-bottom: 31px;
+        /* identical to box height, or 89% */
+
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+    }
+
+    .footer-info {
+        margin: unset;
+        padding: unset;
+        display: block;
+        padding: 58px 0 75px 0;
+    }
+
+    .footer-image {
+        width: 20px;
+        height: 20px;
+        margin: 0px 16px 0 5px;
+        text-align: left;
+    }
+
+    .footer-address {
+        text-align: center;
+        margin: unset;
+        margin-bottom: 18px;
+
+    }
+
+
+
+    .footer-mail {
+        text-align: center;
+        margin-bottom: 19px;
+    }
+
+    .footer-rights {
+        text-align: center;
+        margin: 0px;
+    }
+}

@@ -17,7 +17,8 @@ main {
 
 
 
-.title {
+.title h2 {
+    display: inline;
     font-family: 'Oswald';
     font-style: normal;
     font-weight: bolder;
@@ -27,7 +28,7 @@ main {
     margin: 0;
 }
 
-.subtitle {
+.subtitle h3 {
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
@@ -83,4 +84,52 @@ main {
     letter-spacing: 0.1em;
 
     color: #FFFFFF;
+}
+
+@media(max-width:768px) {
+
+    .main-info, main {
+        height: 100%;
+        margin: 65px 0 116px 0
+    }
+
+    .main-text {
+        text-align: left;
+        margin: unset;
+
+    }
+
+    .title, .subtitle {
+        text-align: center;
+        margin: unset;
+
+    }
+
+    .title h2, .subtitle h3 {
+        display: block;
+    }
+
+    .title br {
+        display: none;
+    }
+
+    .main-info {
+        display: block;
+
+        margin-left: 27px;
+    }
+
+    .main-text {
+        display: block;
+        margin: unset;
+
+    }
+
+    .main-text-left, .main-text-right {
+        width: auto;
+    }
+
+    .bottom {
+        text-align: center;
+    }
 }
