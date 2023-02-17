@@ -7,7 +7,7 @@
     font-size: 16px;
     line-height: 19px;
     color: rgba(255, 255, 255, 0.4);
-    height: 170px;
+    height: 199px;
 }
 
 .footer-image-container {
@@ -27,11 +27,12 @@
 }
 
 .footer-info {
+    margin-left: 153px;
+    padding-top: 39px;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(2, 50px);
-    padding: 21px 0px 38px 0px;
-    margin-left: 140px;
+
 }
 
 .footer-image {
@@ -39,17 +40,23 @@
     height: 20px;
     margin: 0px 16px 0 5px;
     text-align: left;
-
 }
 
 .footer-address {
     text-align: left;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin: 0px;
+}
 
+.footer-mail {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 2 / 3;
 }
 
 .footer-mail a {
     text-align: left;
-
     text-decoration: none;
     color: rgba(255, 255, 255, 0.4);
 }
