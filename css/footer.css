@@ -1,20 +1,20 @@
 .footer {
     text-align: left;
-    background-color: #464547;
-    font-family: 'Source Sans Pro';
+    background-color: --background-color;
+    font-family: var(--main-font);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: rgba(255, 255, 255, 0.4);
+    color: var(--footer-color);
     height: 199px;
 }
 
 .footer-image-container {
     display: flex;
     align-items: center;
-    color: white;
-    font-family: 'Source Sans Pro';
+    color: var(--white-color);
+    font-family: var(--main-font);
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -58,7 +58,7 @@
 .footer-mail a {
     text-align: left;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.4);
+    color: var(--footer-color)
 }
 
 .footer-rights {
@@ -72,21 +72,21 @@
 @media (max-width:768px) {
     .footer {
         text-align: center;
-        background-color: #464547;
-        font-family: 'Source Sans Pro';
+        background-color: var(--background-color);
+        font-family: var(--main-font);
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 19px;
-        color: rgba(255, 255, 255, 0.4);
+        color: var(--footer-color);
         height: 100%;
     }
 
     .footer-image-container {
         display: flex;
         justify-content: center;
-        color: white;
-        font-family: 'Source Sans Pro';
+        color: var(--white-color);
+        font-family: var(--main-font);
         font-style: normal;
         font-weight: 400;
         font-size: 18px;

@@ -6,12 +6,12 @@ main {
     position: relative;
     height: 700px;
     min-height: 300px;
-    font-family: 'Oswald';
+    font-family: var(--oswald-font);
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 64px;
-    color: #464547;
+    color: var(--background-color);
     margin-top: 0px;
 }
 
@@ -19,22 +19,22 @@ main {
 
 .title h2 {
     display: inline;
-    font-family: 'Oswald';
+    font-family: var(--oswald-font);
     font-style: normal;
     font-weight: bolder;
     font-size: 48px;
     line-height: 64px;
-    color: #464547;
+    color: var(--background-color);
     margin: 0;
 }
 
 .subtitle h3 {
-    font-family: 'Source Sans Pro';
+    font-family: var(--main-font);
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
-    color: #666666;
+    color: var(--color-666);
     margin: 40px 0 48px 0;
 
 }
@@ -44,12 +44,12 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 83px;
     margin: 0 120px 0 97px;
-    font-family: 'Source Sans Pro';
+    font-family: var(--main-font);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    color: #666
+    color: var(--color-666);
 }
 
 .main-text p {
@@ -74,7 +74,7 @@ main {
 .bottom-text {
     margin: 5px 17px 6px 18px;
 
-    font-family: 'Oswald';
+    font-family: var(--oswald-font);
     font-style: 'regular';
     font-size: 14px;
     line-height: 26px;
@@ -83,7 +83,8 @@ main {
     text-align: center;
     letter-spacing: 0.1em;
 
-    color: #FFFFFF;
+    color: var(--white-color);
+    ;
 }
 
 @media(max-width:768px) {

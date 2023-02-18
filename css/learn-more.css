@@ -1,6 +1,6 @@
 .learn-more {
     height: 666px;
-    color: white;
+    color: var(--white-color);
     text-align: center;
     background-image: url("../public/learnMoreBg.jfif");
     background-repeat: no-repeat;
@@ -10,8 +10,8 @@
 
 .learn-title {
     z-index: 1000;
-    color: white;
-    font-family: 'Oswald';
+    color: var(--white-color);
+    font-family: var(--oswald-font);
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -25,8 +25,8 @@
     height: 150px;
     border: none;
     border-radius: 50%;
-    background-color: rgba(57, 194, 215, 1);
-    color: white;
+    background-color: var(--bottom-color);
+    color: var(--white-color);
     font-size: 70px;
     margin-top: 63px;
     margin-bottom: 54px;
@@ -42,7 +42,7 @@
 
 
 .learn-text {
-    font-family: 'Source Sans Pro';
+    font-family: var(--main-font);
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
