@@ -1,4 +1,4 @@
-.brand-container {
+.app-header__nav-menu-button {
     z-index: 1000;
     position: absolute;
     left: 162px;
@@ -6,9 +6,9 @@
 
 }
 
-.brand-container h1 {
+.app-header__nav-menu-button *:nth-child(1) {
     margin: 0;
-    font-family: 'Source Sans Pro';
+    font-family: var(--main-font);
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -16,8 +16,7 @@
     /* identical to box height, or 80% */
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #FFFFFF;
-
+    color: var(--white-color);
 }
 
 
@@ -42,8 +41,8 @@ nav ul, nav li {
 
 nav li a {
     text-decoration: none;
-    color: white;
-    font-family: 'Source Sans Pro';
+    color: var(--white-color);
+    font-family: var(--main-font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -52,8 +51,6 @@ nav li a {
 
     letter-spacing: 0.2em;
     text-transform: uppercase;
-
-    color: #FFFFFF;
     margin-right: 32px;
 
 }
@@ -61,12 +58,14 @@ nav li a {
 
 nav li a:hover {
     margin-bottom: 6px;
-    border-bottom: 2px solid #FFFFFF;
+    border-bottom: 2px solid var(--white-color);
+    ;
 }
 
 .active {
     margin-bottom: 6px;
-    border-bottom: 2px solid #FFFFFF;
+    border-bottom: 2px solid var(--white-color);
+    ;
 }
 
 .header-container {
@@ -85,7 +84,7 @@ nav li a:hover {
 }
 
 .hero div:first-of-type {
-    font-family: 'Oswald';
+    font-family: var(--oswald-font);
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -112,7 +111,7 @@ nav li a:hover {
 }
 
 .slogan {
-    font-family: 'Source Sans Pro';
+    font-family: var(--main-font);
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -120,7 +119,7 @@ nav li a:hover {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.hamburguer {
+.app-header__nav-menu-button-icon {
     display: none;
 }
 
@@ -129,7 +128,7 @@ nav li a:hover {
         display: none;
     }
 
-    .brand-container {
+    .app-header__nav-menu-button {
         display: flex;
         left: 0;
         margin: auto;
@@ -138,14 +137,14 @@ nav li a:hover {
         align-items: center;
     }
 
-    .brand-container h1 {
+    .app-header__nav-menu-button h1:nth-child(1) {
         position: relative;
         text-align: left;
         left: 32px;
         margin: initial;
     }
 
-    .hamburguer {
+    .app-header__nav-menu-button-icon {
 
         position: absolute;
         right: 21px;
@@ -157,14 +156,15 @@ nav li a:hover {
         justify-content: space-between;
     }
 
-    .hamburguer-linea {
+    .app-header__nav-menu-button-icon span:nth-child(n) {
+        display: block;
         width: 100%;
-        background-color: white;
+        background-color: var(--white-color);
         height: 3px;
-        margin-top: 3px;
+        margin-top: 4px;
     }
 
-    .hamburguer-linea.first-line {
+    .app-header__nav-menu-button-icon span:nth-child(1) {
         margin-top: 0px;
     }
 }
