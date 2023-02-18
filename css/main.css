@@ -65,7 +65,7 @@ main {
 }
 
 .bottom {
-    background: #55C2D8;
+    background: var(--bottom-color2);
     border-style: none;
     border-radius: 18px;
     margin-top: 21px;

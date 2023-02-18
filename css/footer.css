@@ -1,6 +1,6 @@
 .footer {
     text-align: left;
-    background-color: --background-color;
+    background-color: var(--background-color);
     font-family: var(--main-font);
     font-style: normal;
     font-weight: 400;

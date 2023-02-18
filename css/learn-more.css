@@ -58,6 +58,11 @@
     height: 666px;
 }
 
+.bottom:hover {
+    background-color: var(--white-color);
+    transition: 0.5s;
+}
+
 @media (max-width:768px) {
     .learn-bottom {
         width: 100px;
