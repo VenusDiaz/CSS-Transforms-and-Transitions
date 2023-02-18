@@ -1,0 +1,35 @@
+/* Import fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro&display=swap');
+
+:root {
+    --white-color: white;
+    --main-font: 'Source Sans Pro';
+    --rgba-color: rgba(238, 238, 238, 1);
+    --bottom-color: rgba(57, 194, 215, 1);
+    --bottom-color2: #55C2D8;
+    --background-color: #464547;
+    --footer-color: rgba(255, 255, 255, 0.4);
+    --color-666: #666;
+    --oswald-font: 'Oswald';
+}
+
+/* Remove default margin from body
+set background color to default */
+body {
+    margin: 0px;
+    padding: 0px;
+    background: var(--rgba-color);
+    color: var(--white-color);
+    text-align: center;
+
+}
+
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}

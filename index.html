@@ -3,66 +3,122 @@
 
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1">
   <title>Homework</title>
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/learn-more.css">
+  <link rel="stylesheet" href="/css/footer.css">
+
 </head>
+
+<!-- Specifically for Transitions and animations I did not change anything in the HTML markup.
+     What I have before worked fine to add transformations.
+     CSS files changed, :hover css rules were added for medias queries as well-->
 
 <body>
 
-  <header class="header">
-    <nav>
+
+  <div class="nav-container">
+
+    <div class="app-header__nav-menu-button">
       <h1>PROJECT</h1>
+      <div class="app-header__nav-menu-button-icon">
+        <span></span>
+
+        <span></span>
+
+        <span></span>
+      </div>
+    </div>
+
+    <nav>
       <ul>
         <li><a href="#">Projects</a></li>
-        <li><a href="#">About us</a></li>
+        <li><a class="active" href="#">About us</a></li>
         <li><a href="#">Stories</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
-    <div id="hero">
+
+  </div>
+
+  <div class="header-img-bg"></div>
+  <div class="header">
+    <div class="hero">
       <img src="public\Logo.svg" />
       <br />
-      <span>Your Headline<br />Here</span>
-      <br />
-      <span>
+      <div>Your Headline<br />Here</div>
+      <span class="slogan">
         Lorem ipsum dolor sit amet, consectetur<br />adispiscing elit sed do
         eiusmod.
       </span>
     </div>
-  </header>
+  </div>
+
 
   <main>
-    <section>
-      <h2>This is the Section Headline,<br>Continues to Two Lines
-      </h2>
-      <h3>Lorem ipsum dolor sit amet, consectetur<br>adispiscing elit sed do eiusmod.</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-        id est laborum. Sed ut perspiciatis unde omnis.</p>
-      <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <button type="button">Read more</button>
-    </section>
+    <div class="main-info center">
+
+      <div class="title">
+        <h2>This is the
+          Section</h2>
+        <h2>Headline,</h2><br>
+        <h2>Continues</h2>
+        <h2> to Two Lines</h2>
+      </div>
+      <div class="subtitle">
+        <h3>Lorem ipsum dolor sit amet, consectetur<br>adispiscing elit sed do eiusmod.</h3>
+      </div>
+      <div class="main-text">
+        <p class="main-text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+          incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim
+          id est laborum. Sed ut perspiciatis unde omnis.</p>
+        <p class="main-text-right">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div>
+        <button class="bottom" type="button">
+          <div class="bottom-text">Read more</div>
+        </button>
+      </div>
+    </div>
   </main>
-  <section id="learn-more">
-    <h2>Learn more<br>about our culture...</h2>
-    <button type="button">&#9654</button>
+
+  <section class="learn-more center">
+    <div class="bg-mask"></div>
+
+    <h2 class="learn-title">Learn more<br>about our culture...</h2>
+    <button class="learn-bottom" type="button"> <span>&#9654</span></button>
     <br>
-    <span>Duis aute irure dolor in reprehenderit<br>in voluptate velit esse cillum dolore eu<br>fugiat nulla pariatur.
+    <span class="learn-text">Duis aute irure dolor in reprehenderit<br>in voluptate velit esse cillum dolore
+      eu<br>fugiat nulla pariatur.
     </span>
   </section>
-  <footer>
-    <div>
-      <img src="public\SmallLogo.svg" /> Project
+
+  <footer class="footer">
+    <div class="footer-info">
+      <div class="footer-image-container">
+        <img class="footer-image" src="public\SmallLogo.svg" /> Project
+      </div>
+      <div class="footer-address">
+        123 Street,<br>Anytown, USA 12345
+      </div>
+      <div class="footer-mail">
+        <a href="mailto: hello@website.com">hello@website.com</a>
+      </div>
+      <div class="footer-rights">&copy; 2021 Project. All rights reserved </div>
     </div>
-    <div>
-      <i>123 Street,<br>Anytown, USA 12345</i>
-      <a href="mailto: hello@website.com">hello@website.com</a><br>
-    </div>
-    <p>&copy; 2021 Project. All rights reserved </p>
+
   </footer>
 
 </body>

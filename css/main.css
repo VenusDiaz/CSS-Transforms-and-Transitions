@@ -1,0 +1,145 @@
+main {
+    height: 700px;
+}
+
+.main-info {
+    position: relative;
+    height: 700px;
+    min-height: 300px;
+    font-family: var(--oswald-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--background-color);
+    margin-top: 0px;
+}
+
+
+
+.title h2 {
+    display: inline;
+    font-family: var(--oswald-font);
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--background-color);
+    margin: 0;
+}
+
+.subtitle h3 {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--color-666);
+    margin: 40px 0 48px 0;
+
+}
+
+.main-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 83px;
+    margin: 0 120px 0 97px;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--color-666);
+}
+
+.main-text p {
+    text-align: left;
+}
+
+.main-text-left {
+    width: 408px;
+}
+
+.main-text-right {
+    width: 416px;
+}
+
+.bottom {
+    background: var(--bottom-color2);
+    border-style: none;
+    border-radius: 18px;
+    margin-top: 21px;
+}
+
+.bottom:hover {
+    transform: rotateZ(7deg) translate(0px, -3px);
+    transform-origin: left center;
+
+    transition: .6s cubic-bezier(0, 0.9, 1, 1);
+}
+
+
+
+.bottom-text {
+    margin: 5px 17px 6px 18px;
+
+    font-family: var(--oswald-font);
+    font-style: 'regular';
+    font-size: 14px;
+    line-height: 26px;
+    /* or 186% */
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: var(--white-color);
+    ;
+}
+
+@media(max-width:768px) {
+
+    .main-info, main {
+        height: 100%;
+        margin: 65px 0 116px 0
+    }
+
+    .main-text {
+        text-align: left;
+        margin: unset;
+
+    }
+
+    .title, .subtitle {
+        text-align: center;
+        margin: unset;
+
+    }
+
+    .title h2, .subtitle h3 {
+        display: block;
+    }
+
+    .title br {
+        display: none;
+    }
+
+    .main-info {
+        display: block;
+
+        margin-left: 27px;
+    }
+
+    .main-text {
+        display: block;
+        margin: unset;
+
+    }
+
+    .main-text-left, .main-text-right {
+        width: auto;
+    }
+
+    .bottom {
+        text-align: center;
+    }
+}
