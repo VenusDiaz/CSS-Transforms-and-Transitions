@@ -71,6 +71,15 @@ main {
     margin-top: 21px;
 }
 
+.bottom:hover {
+    transform: rotateZ(7deg) translate(0px, -3px);
+    transform-origin: left center;
+
+    transition: .6s cubic-bezier(0, 0.9, 1, 1);
+}
+
+
+
 .bottom-text {
     margin: 5px 17px 6px 18px;
 
